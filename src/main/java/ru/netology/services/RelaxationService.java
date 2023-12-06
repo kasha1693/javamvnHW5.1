@@ -1,7 +1,7 @@
 package ru.netology.services;
 
 public class RelaxationService {
-    int calculate (int income, int expenses, int threshold) {
+    int calculate(int income, int expenses, int threshold) {
         int count = 0;
         int money = 0;
         for (int i = 0; i < 12; i++) {
